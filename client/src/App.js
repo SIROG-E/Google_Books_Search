@@ -1,25 +1,29 @@
-import { useEffect } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import axios from "axios";
+import React, { Component } from "react";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import Nav from "./components/Nav"
+// import Search from "./pages/Search";
+// import Saved from "./pages/Saved";
+// import Jumbotron from "./components/Jumbotron";
 
-function App() {
-  useEffect(() => {
-    console.log("Make an API call");
-    axios
-      .get("/api/config")
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
-  return (
-    <div className="App">
-        <h1>Hello world!</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      // <Router>
+      //   <div>
+      //     <Nav />
+      //     <Jumbotron />
+      //     <Switch>
+      //       {/* renders the Search page when "/" route is hit */}
+      //       <Route exact path="/" component={Search} />
+      //       {/* renders the Search page when "/search" route is hit */}
+      //       <Route exact path="/search" component={Search} />
+      //       {/* renders the Saved page when "/saved" route is hit */}
+      //       <Route exact path="/saved" component={Saved} />
+      //     </Switch>
+      //   </div>
+      // </Router>
+    );
+  }
 }
 
 export default App;
