@@ -1,0 +1,28 @@
+.input-group-lg > .custom-select,
+.input-group-lg > .form-control:not(textarea) {
+  height: 55px;
+  width: 100%;
+  margin: 0px 0px;
+  margin-left: 70px;
+}
+.search {
+  background-color: #382720;
+  border: 2px solid #887f75;
+  height: 58px;
+  width: 150px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0px 50px;
+  margin-left: -10px;
+}
+.search:hover {
+  color: white;
+  background-color: #887f75 !important;
+  border: 3px solid #887f75 !important;
+}
+.btn-success:focus {
+  color: #fff;
+  border-color: #382720 !important;
+  outline: none;
+  box-shadow: none;
+}
