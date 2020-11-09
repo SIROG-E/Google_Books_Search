@@ -1,5 +1,5 @@
 {
-  "name": "my-mern-app",
+  "name": "google-books-search",
   "version": "1.0.0",
   "description": "## GOAL: Build a fullstack MERN App",
   "main": "server.js",
