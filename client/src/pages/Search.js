@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import API from "../utils/API";
-// import { Container, Row, Col } from "../components/Grid";
-// import { BookList, BookListItem } from "../components/List";
-// import { Input, SearchButton } from "../components/Input";
+import { Container, Row, Col } from "../components/Grid";
+import { BookList, BookListItem } from "../components/List";
+import { Input, SearchButton } from "../components/Input";
 
 class Search extends Component {
 
@@ -36,7 +36,7 @@ class Search extends Component {
     render() {
         return (
             <div>
-                {/* <Container>
+                <Container>
                     <Row>
                         <Col size="md-12">
                             <form>
@@ -60,17 +60,6 @@ class Search extends Component {
                                             </SearchButton>
                                         </Col>
                                     </Row>
-                                    {/* <Row>
-                                        <Col size="xs-12 sm-12">
-                                            <SearchButton
-                                                onClick={this.handleFormSubmit}
-                                                type="success"
-                                                className="input-lg search-button"
-                                            >
-                                                Search
-                                            </SearchButton>
-                                        </Col>
-                                    </Row> */}
                                 </Container>
                             </form>
                         </Col>
@@ -93,7 +82,7 @@ class Search extends Component {
                             </BookList>
                         </Col>
                     </Row>
-                </Container> */}
+                </Container>
             </div>
         );
     };
