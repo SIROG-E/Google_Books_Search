@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../utils/API";
-// import { Container, Row, Col } from "../components/Grid";
-// import { BookList, BookListItem } from "../components/List";
+import { Container, Row, Col } from "../components/Grid";
+import { BookList, BookListItem } from "../components/List";
 
 class Save extends Component {
 
@@ -28,7 +28,7 @@ class Save extends Component {
     render() {
         return (
             <div>
-                {/* <Container>
+                <Container>
                     <Row>
                         <Col size="xs-12">
                             <BookList>
@@ -49,7 +49,7 @@ class Save extends Component {
                             </BookList>
                         </Col>
                     </Row>
-                </Container> */}
+                </Container>
             </div>
         );
     };
